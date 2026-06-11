@@ -1,0 +1,58 @@
+<header>
+    <nav class="container nav-bar">
+        <div class="logo">🌾 Agrinho 2026</div>
+        <button id="botao-contraste" aria-label="Mudar para alto contraste">Mudar Contraste</button>
+    </nav>
+</header>
+
+<main class="container">
+    <section class="card-introducao card">
+        <h1>Alimentos da Nossa Região: Força e Sustentabilidade</h1>
+        <p>Este projeto apresenta uma análise prática sobre a importância da agricultura local. O campo não apenas move a economia, mas garante a segurança alimentar nas cidades através de técnicas sustentáveis que protegem o solo e a água.</p>
+    </section>
+
+    <section class="card-dados card">
+        <h2>📊 Dados de Produção Regional (Fonte Oficial: IBGE)</h2>
+        <p>Com base nos dados do Censo Agropecuário do IBGE, destacamos os dois pilares vegetais que sustentam a nossa produção regional e abastecem o mercado nacional:</p>
+        
+        <div class="grade-alimentos">
+            <div class="bloco-alimento">
+                <h3>🌽 Complexo de Grãos (Soja e Milho)</h3>
+                <p>Nossa região se destaca como uma das maiores produtoras de grãos do país. A produção de soja ultrapassa milhões de toneladas, servindo como base econômica para a exportação e matéria-prima essencial na fabricação de rações para a pecuária local.</p>
+            </div>
+            <div class="bloco-alimento">
+                <h3>🥦 Horticultura e Agricultura Familiar</h3>
+                <p>O cinturão verde regional responde pelo abastecimento de verduras e legumes frescos para feiras e mercados municipais. Mais de 70% das propriedades locais de hortifrúti pertencem à agricultura familiar, promovendo o desenvolvimento sustentável.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="card-feedback card">
+        <h2>Sua Opinião é Importante</h2>
+        <p>Como desenvolvedores, buscamos a melhoria contínua da nossa interface. Deixe sua sugestão abaixo para evoluirmos a usabilidade do site!</p>
+        
+        <form id="formulario-feedback">
+            <div class="campo-grupo">
+                <label for="nome-usuario">Seu Nome:</label>
+                <input type="text" id="nome-usuario" required placeholder="Ex: Maria Silva">
+            </div>
+
+            <div class="campo-grupo">
+                <label for="texto-sugestao">Sua Sugestão:</label>
+                <textarea id="texto-sugestao" required placeholder="Digite aqui o que podemos melhorar na acessibilidade ou conteúdo do site..."></textarea>
+            </div>
+
+            <button type="submit" class="btn-enviar">Enviar Mensagem</button>
+        </form>
+        <div id="aviso-sucesso" style="display:none;" role="alert">
+            ✅ Obrigado! Sua sugestão foi coletada com sucesso e nos ajudará a aprimorar o portal.
+        </div>
+    </section>
+</main>
+
+<footer>
+    <div class="container text-center">
+        <p><strong>Projeto Escolar Desenvolvido para o Concurso Agrinho 2026.</strong></p>
+        <p class="acessibilidade-info"><strong>Acessibilidade (Audiodescrição da Página):</strong> O site apresenta uma estrutura visual limpa e semântica. No topo, uma barra verde-escura centraliza o logotipo e exibe, na extremidade direita, um botão de contraste retangular branco. O corpo da página utiliza fundo cinza-claro com blocos de texto brancos e margens bem definidas, facilitando a leitura. O rodapé possui fundo cinza-escuro com textos centralizados em branco e cinza-claro.</p>
+    </div>
+</footer>
